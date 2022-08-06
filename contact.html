@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Smile 4 U</title>
+    <style>
+li{
+    margin: 23px;
+  }
+ul{
+    display: flex;
+  }
+    </style>
+</head>
+<body>
+    <header class="text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">Smile 4 U</span>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <ul>
+              <li class="item"><a href='/home'>Home</a></li>
+              <li class="item"><a href='/about'>About</a></li>
+              <li class="item"><a href='/contact'>Contact Us</a></li>
+            </ul>
+          </nav>
+          <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Appointment
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+    </header>
+    <section class="text-gray-600 body-font relative">
+        <div class="absolute inset-0 bg-gray-300">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.188224893127!2d88.39863261492359!3d22.497120085221717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02715f69b19e0b%3A0x1237ca9c2a4ca5!2sMadhura%20Apartment!5e0!3m2!1sen!2sin!4v1659275944577!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no"></iframe>
+        </div>
+        <div class="container px-5 py-24 mx-auto flex">
+          <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+            <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Get an Appointment</h2>
+            <div class="relative mb-4">
+              <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <div class="relative mb-4">
+              <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+              <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+            <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+            <p class="text-xs text-gray-500 mt-3">+91 9635217184, doc.girirajmandal@gmail.com</p>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
